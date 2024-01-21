@@ -3,60 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">  
+    <title>goit-markup-hw-02</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./portfolio.html">
+    
   </head>
   <body>
+     <!--Шапка-->
     <header>
       <div>
-        <span>
-          <a href="123">Web</a>
-          <a href="123">Studio</a>
+        <span class="logo">
+          <a href="index.html" class="logo">Web</a>
+          <a href="index.html" class="logo-Studio">Studio</a>
         </span>
       </div>
       <nav>
         <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li class="nav-link">
+            <a href="index.html" class="nav-link-current">Студія</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="nav-link">Портфоліо</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a></li>
+        <li>
+          <a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a></li>
       </ul>
     </header>
+
     <main>
       <section>
-        <div>
-          <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button type="button">Замовити послугу</button>
+        <div class="hero">
+          <h1>ЕФЕКТИВНІ РІШЕННЯ <br/>
+            ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
         </div>
       </section>
       <section>
-        <ul>
+        <ul class="skills">
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <p class="skills-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <p class="skills-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
             <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <p class="skills-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <p class="skills-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -64,9 +81,9 @@
         </ul>
       </section>
       <section>
-        <div>
+        <div class="work">
           <h2>Чим ми займаємося</h2>
-          <ul>
+          <ul class="work-list">
             <li><img src="./foto/box1.jpg" width="370" header="294" alt="box" /></li>
             <li><img src="./foto/box2.jpg" width="370" header="294" alt="box" /></li>
             <li><img src="./foto/box3.jpg" width="370" header="294" alt="box" /></li>
@@ -74,56 +91,71 @@
         </div>
       </section>
       <section>
-        <div>
+        <div class="team">
           <h2>Наша команда</h2>
           <ul>
-            <li>
+            <li class="team-card">
                 <img
                 src="./foto/FrontendDeveloper1.jpg"
                 width="270"
                 header="260"
                 alt="Ігор Дем'яненко"
                 />
+                <h2>Ігор Дем'яненко</h2>
+                <p class="team-desc">
+                  Product Designer</p>
             </li>
-             <li>
+             <li class="team-card">
                 <img
                  src="./foto/FrontendDeveloper2.jpg"
                  width="270"
                  header="260"
                  alt="Ольга Рєпіна"
                  />
+                 <h2>Ольга Рєпіна</h2>
+                 <p class="team-desc">
+                 Frontend Developer</p>
              </li>
-             <li>
+             <li class="team-card">
                 <img
                 src="./foto/Marketing.jpg"
                 width="270"
                 header="260"
                 alt="Микола Тарасов"
               />
-             </li>
-             <li>
+              <h2>Микола Тарасов</h2>
+              <p class="team-desc">
+                Marketing</p>
+             </li >
+             <li class="team-card">
                 <img
                 src="./foto/UIDesigner.jpg"
                 width="270"
                 header="260"
                 alt="Михайло Єрмаков"
               />
+              <h2>Михайло Єрмаков</h2>
+              <p class="team-desc">
+                UI Designer</p>
              </li>
         </ul>
         </div>
       </section>
     </main>
+
     <footer>
       <div>
-        <span>
-          <a href="123">Web</a>
-          <a href="123">Studio</a>
+        <span class="footer-logo">
+          <a href="index.html" class="footer-logo-web">Web</a>
+          <a href="index.html" class="footer-logo-studio">Studio</a>
         </span>
       </div>
       <ul>
-        <li><address>м. Київ, пр-т Лесі Українки, 26</address></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+        </li>
+        <li><a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="address-contact">+38 096 111 11 11</a></li>
       </ul>
     </footer>
   </body>
