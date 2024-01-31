@@ -23,13 +23,3 @@
    Ось цей флажочок "-b" створює нову гілку, і після створення ти зразу на неї переходиш)
 
 ---
-
-Виправити: "м. Київ, пр-т Лесі Українки, 26"
-У всьому тексті видалити садній колір background:color
-
-Замінити посилання на шрифт:
-
-<link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />

@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     color: var(--main-color);
     font-style: normal;
+    background: var(--background)
   }
 
   li {
@@ -34,9 +35,9 @@ a {
     letter-spacing: 0.78px;
     }
 
-.logo-Studio {
-    color: var(--main-color);
-}
+    .logo-Studio {
+        color: var(--title-color);
+    }
 
 .nav-link {
     color: var(--main-color);
@@ -143,7 +144,6 @@ a {
 
 .address {
     color: var(--title-color);
-    background: var(--background);
     width: 231px;
     height: 21px;
     flex-shrink: 0;
@@ -156,7 +156,6 @@ a {
 
 .address-contact {
     color: rgba(255, 255, 255, 0.60);
-    background: var(--background);
     width: 231px;
     flex-shrink: 0;
     font-size: 14px;
@@ -176,12 +175,10 @@ a {
 
 .footer-logo-studio {
     color: var(--title-color);
-    background: #2F303A;
 }
 
 .footer-logo-web {
     color: var(--accent-color);
-    background: #2F303A;
 }
 
 /* --- Button --- */
